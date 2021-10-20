@@ -1,0 +1,21 @@
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+}
+img {
+    grid-column: 1/2;
+    width: 100%;
+    grid-row: 1/3;
+    height: 100%;
+    object-fit: cover;
+}
+h1 {
+    font-size: 40px;
+}
+section {
+    grid-column: 2/4;
+}
+body {
+    height: 700px;
+}
