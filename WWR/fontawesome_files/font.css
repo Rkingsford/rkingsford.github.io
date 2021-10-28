@@ -1,0 +1,40 @@
+#shopping {
+    color: cadetblue;
+    font-size: 25px;
+}
+#person {
+    color:darkorchid;
+    font-size: 40px;
+}
+#star {
+    color: goldenrod;
+    font-size: 70px;
+}
+#pet {
+    color: maroon;
+    font-size: 100px;
+}
+#giftcard {
+    color:seagreen;
+    font-size: 120px;
+}
+#puzzle {
+    color: tomato;
+    font-size: 140px;
+}
+#alarm {
+    color: orange;
+    font-size: 170px;
+}
+#moon {
+    color: yellow;
+    font-size: 200px;
+}
+#phone {
+    color: slateblue;
+    font-size: 220px;
+}
+#pregnant {
+    color: palevioletred;
+    font-size: 240px;
+}
