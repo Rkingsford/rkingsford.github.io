@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+body {
+    text-align: center;
+    
+}
+#page {
+    width: 300px;
+    margin: auto;
+}
+.weeks {
+    color: darkslateblue;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:slateblue;
+    color: white;
+}
+.views {
+    border-color:slategrey;
+    border-style: solid;
+    border-width: .25px;
+    font-size: 15px;
+}
+.read {
+    border-color: slategrey;
+    border-style: solid;
+    border-width: .25px;
+    font-size: 15px;
+}
+.comments {
+    border-color: slategrey;
+    border-style: solid;
+    border-width: .25px;
+    font-size: 15px;
+}
+p {
+    line-height: 2em;
+    font-family: Arvo;
+    color: slategrey;
+}
+.teams {
+    font-family: Arvo;
+    font-style: bold;
+    font-size: 35px;
+}
