@@ -14,3 +14,6 @@ img {
     border: 10px solid cornflowerblue;
     justify-self: center;
 }
+body {
+    background-color: lightsteelblue;
+}
