@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&family=Pacifico&display=swap');
+.quote {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.uchtdorf {
+    font-family: 'Gothic A1', sans-serif;
+    text-align: center;
+}
+img {
+    margin: 0 auto;
+    display: block;
+    border: 10px solid cornflowerblue;
+    justify-self: center;
+}
