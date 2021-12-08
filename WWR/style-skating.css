@@ -155,8 +155,6 @@ header a{
     grid-column: 1/2;
     grid-row: 7/8;
     border: 10px solid #396E94;
-    box-shadow: 5px 5px 10px lightsteelblue;
-
 }
 .family {
     display: grid;
@@ -164,8 +162,6 @@ header a{
     grid-row: 5/6;
     border: 10px solid #396E94;
     margin: 100px;
-    box-shadow: 5px 5px 10px lightsteelblue;
-
 }
 /* SUBPAGE DEALS */
 .home-deals {
@@ -232,6 +228,7 @@ header a{
 .disco img {
     display: block;
     margin: 0 auto;
+    border: 10px solid #f77f00;
 }
 .poster {
     grid-column: 1/2;
@@ -244,6 +241,7 @@ header a{
     display: block;
     margin: 0 auto;
     width: 442px;
+    border: 10px solid #396E94;
 }
 .bottomhalf-grid {
     display: grid;
@@ -270,6 +268,7 @@ header a{
     width: 75%;
     display: block;
     margin: 0 auto;
+    border: 10px solid #f77f00;
 }
 /* SUBPAGE SHOP */
 .pinkskates {
@@ -344,7 +343,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color:#396E94;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -373,7 +372,7 @@ button:hover {
 /* Add padding to container elements */
 .container {
   padding: 16px;
-  margin: 32px;
+  margin: 100px;
   background-color: white;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 30px;
