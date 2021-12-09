@@ -54,7 +54,7 @@ header {
 }
 nav {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     font-family: "Yanone Kaffeesatz" ,sans-serif;
     font-size: 30px;
 }
@@ -270,32 +270,6 @@ header a{
     margin: 0 auto;
     border: 10px solid #f77f00;
 }
-/* SUBPAGE SHOP */
-.pinkskates {
-    width: 100%;
-    z-index: 0;  
-    grid-column: 1/-1;
-    grid-row: 1/3;
-}
-.pinkskates img {
-    width: 100%;
-}
-.favorites {
-    text-align: center;
-    font-family: 'Architects Daughter', cursive;
-    text-transform: uppercase;
-    color: white;
-    font-size: 30px;
-}
-.two-pair {
-    width: 100%;
-    z-index: 0;  
-    grid-column: 1/-1;
-    grid-row: 1/3;
-}
-.two-pair img {
-    width: 100%;
-}
 footer {
     background-color: #f77f00;
     padding: 25px 50px;
@@ -320,7 +294,25 @@ footer {
 * {box-sizing: border-box}
 
 /* SIGN UP BOX */
-
+.trio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.whiteskates {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    margin: 20px 3px;
+}
+.pink-skates {
+    width: 389px;
+    height: 257px;
+    margin: 20px 3px;
+}
+.wheels {
+    width: 389px;
+    height: 257px;
+    margin: 20px 3px;
+}
 /* Full-width input fields */
   input[type=text], input[type=password] {
   width: 100%;
